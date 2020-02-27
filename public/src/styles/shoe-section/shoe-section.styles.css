@@ -1,5 +1,9 @@
 .shoe-section {
-    width: 99vw;
+    width: 97vw;
+}
+
+.shoe-section-half {
+    justify-content: space-between;
 }
 
 .shoe-link {
@@ -9,6 +13,22 @@
 .shoe-link:hover {
     cursor: pointer; 
 }
-.shoe-link:hover p{
+
+.red:hover p{
     color: red;
+}
+.blue:hover p{
+    color: blue;
+}
+
+@media (max-width: 800px){
+    .shoe-link {
+        width: 250px;
+        height: auto;
+    }
+
+    .shoe-img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
