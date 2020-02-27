@@ -1,3 +1,14 @@
 .shoe-section {
-    justify-content: space-evenly;
+    width: 99vw;
+}
+
+.shoe-link {
+    text-align: center;
+}
+
+.shoe-link:hover {
+    cursor: pointer; 
+}
+.shoe-link:hover p{
+    color: red;
 }
