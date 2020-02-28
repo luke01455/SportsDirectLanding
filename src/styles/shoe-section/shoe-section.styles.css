@@ -1,0 +1,46 @@
+.shoe-section {
+    width: 97vw;
+}
+
+.shoe-section-half {
+    justify-content: space-between;
+}
+
+.shoe-link {
+    text-align: center;
+}
+
+.shoe-link:hover {
+    cursor: pointer; 
+}
+
+.red:hover p{
+    opacity: 0.7;
+    color: red;
+}
+.blue:hover p{
+    opacity: 0.7;
+    color: blue;
+}
+
+@media (max-width: 800px){
+    .shoe-section {
+        width: 90vw;
+    }
+    .shoe-link {
+        width: 250px;
+        height: auto;
+    }
+
+    .shoe-img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    .shoe-link {
+        width: 200px;
+        height: auto;
+    }
+}

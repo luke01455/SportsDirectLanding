@@ -1,0 +1,37 @@
+#hero-section {
+    padding-top: 105px;
+    margin-bottom: 30px;
+}
+.hero-images {
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+.hero {
+    width: 38vw;
+    height: auto;
+}
+
+.hero-image-mobile {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-mobile {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 950px){
+    .hero-images {
+        display: none;
+    }
+}
+
+@media (min-width: 950px){
+    .hero-image-mobile {
+        display: none;
+    }
+}

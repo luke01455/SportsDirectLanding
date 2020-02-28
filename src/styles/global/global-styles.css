@@ -1,0 +1,29 @@
+.navbar {
+    justify-content: center;
+    background-color: white;
+}
+
+.divider {
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.divider > h3 {
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.divider > h3 > b {
+    font-weight: 900;
+    color: black;    
+    text-shadow: 1px 0 black;
+    letter-spacing:1px;
+}
+
+.bar-divider {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
