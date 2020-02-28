@@ -19,3 +19,11 @@
     text-shadow: 1px 0 black;
     letter-spacing:1px;
 }
+
+.bar-divider {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}

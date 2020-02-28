@@ -31,10 +31,13 @@
     </style>
   </head>
   <body>
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="#"> <img class="img-responsive" src="./src/assets/icons/sdlogo.jpg"/> </a>
     </nav>
 
+    <!-- Hero Section -->
     <div id='hero-section' class="mx-auto d-block">
       <div class='hero-images'>
         <img class="img-responsive hero" src='./src/assets/images/playfirehero.jpg'/>
@@ -49,7 +52,7 @@
       <h3> MOST <b>POPULAR</b> </h3>
     </div>
 
-    <!-- TODO: remove weird padding in shoe section, clean up responsiveness -->
+    <!-- Shoe Display -->
     <div class='row shoe-section mx-auto'>
       <div class='shoe-section-half row mx-auto'>
         <a class='shoe-link blue col'>       
@@ -73,10 +76,13 @@
       </div>
     </div>
 
+    <div class='bar-divider'></div>
+
     <div class='container divider'>
       <h3> MORE <b>BRANDS</b> </h3>
     </div>
 
+    <!-- Footer Desktop -->
     <div class='footer row mx-auto'>
       <div class='footer-half'>
         <div class='logo-img-container'><img class='logo-img' src='src/assets/icons/adidaslogo.png'/></div>
@@ -94,12 +100,28 @@
       </div>
     </div>
 
+    <!-- Footer Mobile -->
+
+    <div class="main-carousel js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/adidaslogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/camprilogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/disneylogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/everlastlogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/newblogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/nikelogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/pumalogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/reeboklogo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/sondicologo.png'/></div>
+      <div class="carousel-cell"><img class='logo-img' src='src/assets/icons/underalogo.png'/></div>
+    </div>
+    
   </body>
       <!-- JS -->
     <script src="jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="bundle.js" charset="utf-8"></script>
     <script src="src/js/flickity.pkgd.min.js"></script>
+    
 
 
 </html>

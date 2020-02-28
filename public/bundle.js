@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n// smooth scroll to an id from href\n$(document).ready(function () {\n  // on clicking any href which has a hash\n  $('a[href*=\\\\#]').on('click', function (e) {\n    e.preventDefault();\n    $('html, body').animate({\n      scrollTop: $(this.hash).offset().top\n    }, 500);\n  });\n});\n\n// header changes colour when scrolled below navbars height\n$(function () {\n  $(document).scroll(function () {\n    var $nav = $(\".fixed-top\");\n    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());\n  });\n});\n\n$('.carousel-control-next').click(function () {\n  $('.carousel').carousel('next');\n});\n$('.carousel-control-prev').click(function () {\n  $('.carousel').carousel('prev');\n});\n\n//# sourceURL=webpack:///./public/src/js/index.js?");
+eval("\n\n$('.main-carousel').flickity({\n  // options\n  cellAlign: 'left',\n  contain: true\n});\n\n//# sourceURL=webpack:///./public/src/js/index.js?");
 
 /***/ })
 

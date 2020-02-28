@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "public/index.html",
-  "homepage": "",
+  "homepage": "https://luke01455.github.io/SportsDirectLanding",
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack --config webpack.config.js",
